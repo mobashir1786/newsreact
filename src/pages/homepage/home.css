@@ -1,0 +1,12 @@
+.homepage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.advertisement{
+    width: 20%;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 20px;
+}

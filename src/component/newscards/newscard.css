@@ -1,0 +1,41 @@
+.newscards{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsCardImage{
+    width: 120px;
+    height: 120px;
+}
+.newsCardImage>img{
+    width: 120px;
+    height: 120px;
+}
+.newsDetail{
+    margin-left: 10px;
+}
+.cardTitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media(max-width:600px){
+    .newsCardImage{
+        width: 100px;
+        height: 100px;
+    }
+    .newsCardImage>img{
+        width: 100px;
+        height: 100px;
+    }
+    .newscards{
+        width: 90%;
+        height: 200px;
+    }
+    .cardDiscription{
+        display: none;
+    }
+}
